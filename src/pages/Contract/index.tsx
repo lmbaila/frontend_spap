@@ -6,6 +6,7 @@ import PageTitle from '../../components/PageTitle';
 import {  LeftSide, RightSide} from './../../../src/components/Layout/styles';
 import ProviderData from '../../components/ProviderData';
 import MenuBar from '../../components/MenuBar';
+import DataTableContract from '../../components/DataTableContract';
 import {Main} from '../../components/Main/styles';
 const Contract: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const Contract: React.FC = () => {
         </LeftSide>
         <RightSide>
           <PageTitle title = {"Contractos"} orders = {12}/>
+          <DataTableContract />
         </RightSide>
       </Main>
      
